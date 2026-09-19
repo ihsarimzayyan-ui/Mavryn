@@ -81,6 +81,8 @@ function authView() {
     <p class="auth-sub">A private 10-member messaging environment built for fast, secure conversation.</p>
     ${body}<div id="auth-error" class="err"></div>
   </div></div>`;
+  // authView replaces the DOM, so bind the newly-created forms/buttons immediately.
+  bindUI();
 }
 
 function renderShell() {

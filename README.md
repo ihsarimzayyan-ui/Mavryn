@@ -76,6 +76,3 @@ Open `android/` in Android Studio, build the APK, install it, and enter the fina
 Run:
 - `npm run check`
 - `npm run smoke`
-"# Mavryn" 
-"# Mavryn" 
-"# Mavryn" 
